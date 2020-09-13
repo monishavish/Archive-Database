@@ -1,0 +1,78 @@
+body{
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+.head1 {
+	font-size: 30px;
+	color: blue;
+	position: absolute;
+    top: 0em;
+    right:50%;
+}	
+
+
+.inputs1{
+	position: absolute;
+	margin: 15% 98% 85% 02%;
+}
+
+.inputs2{
+	position: absolute;
+	margin: 15% 50% 85% 50%;
+}
+.input3{
+	position: absolute;
+	margin: 40% 72% 60% 28%;
+}
+.input4{
+	position: absolute;
+	margin: 40% 60% 60% 40%;
+}
+
+input[type=text]{
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 4px 0;
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=number]{
+	font-size: 20px;
+	padding: 10px 20px;
+	margin: 4px 0;
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	font-size: 20px;
+	color: white;
+	background-color: rgba(50,60,255,0.8);
+	padding: 10px 15px;
+	margin: 4px 0;
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: red;
+}
+
+input[type=reset]{
+	font-size: 20px;
+	color: white;
+	background-color: rgba(50,60,255,0.8);
+	padding: 10px 15px;
+	margin: 4px 0;
+	border: 1px solid #000;
+	border-radius: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+input[type=reset]:hover {
+	background-color: red;
+}
